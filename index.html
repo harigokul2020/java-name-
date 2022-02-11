@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oceanus</title>
+    <script src="./name.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,300;1,500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="img">
+        <img src="./image 15.png" alt="">
+    </div>
+    <div class="container">
+    <img src="./Frame.png" alt="">
+    <h2>LOGIN</h2>
+    <p>Welcome to Oceanus</p>
+    </div>
+    <div class="header">
+        <input type="email" id="email" placeholder="Email" >
+        <br>
+        <input type="password" class="password" placeholder="Password">
+        <input type="checkbox" class="checkbox">
+        <label for="check">Remember me</label>
+        <a href="#" id="pop" onclick="forgotpass">Forgot password</a>
+        
+    </div>
+  
+    <div class="login">
+        <a href="#" onclick="handlesubmit()">LOGIN</a>
+        <p id="result"></p>
+    </div>
+    <div class="popup" id="popup-1"> 
+        <div class="overlay"></div>
+        <div class="content">
+           
+            <h1>Forgot password?</h1>
+            <h4>Enter your email adress to request a </h4>
+            <p>password reset</p>
+            <input type="email" placeholder="Email adress">
+            <button type="submit">Request</button>
+      
+        <div class="close-btn" onclick="closebutton">&times;</div> 
+        <script src="popup.js">
+
+        </script>
+</body>
+</html>
